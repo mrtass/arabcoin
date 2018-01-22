@@ -24,7 +24,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 //TODO Specify total number of available coins
 //TODO ((uint64_t)(-1)) equals to 18446744073709551616 coins
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
-const uint64_t MONEY_SUPPLY                                  = ((uint64_t)(-1));
+const uint64_t MONEY_SUPPLY                                  = (21000000);
 const unsigned EMISSION_SPEED_FACTOR                         = 18;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
@@ -110,10 +110,10 @@ const std::initializer_list<const char*> SEED_NODES = {
   //"your_seed_ip2.com:8080",
   //"213.165.37.162:17936",
   //"213.165.37.162:3000",
-    //"192.168.0.157:8080",
-    //"192.168.0.151:8080",
-  "213.165.37.170:8080",
-  "213.165.37.171:8080",
+    "192.168.0.157:8080",
+    "192.168.0.151:8080",
+ // "213.165.37.170:8080",
+  //"213.165.37.171:8080",
   
   
 };
